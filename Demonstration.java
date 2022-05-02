@@ -5,12 +5,12 @@ public class Demonstration{
         int total = 0;
 
         for(int i = 0; i < 5; i++){
-            total = (num + num2);
+            total += (num + num2);
         }
 
         return total;
     }
 
-    // There is a bug in this code.
+    // Fixed bug. Test should now run.
 
 }
